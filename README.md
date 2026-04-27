@@ -1,6 +1,6 @@
 # rs-smbclient
 
-An interactive SMB2/3 client written in **pure Rust** no C dependencies, no libsmbclient, no Samba.
+An interactive SMB2/3 client written in **pure Rust** no C dependencies, no libsmbclient.
 Inspired by Impacket's `smbclient.py`.
 
 ## Features
@@ -15,10 +15,10 @@ Inspired by Impacket's `smbclient.py`.
 ## Installation
 
 ```bash
-git clone https://github.com/your-user/smbclient-rs
-cd smbclient-rs
+git clone https://github.com/ivancabrera02/rs-smbclient
+cd rs-smbclient
 cargo build --release
-# Binary will be at ./target/release/smbclient-rs
+# Binary will be at ./target/release/rs-smbclient
 ```
 
 **Requirements:** Rust 1.75+ (stable). No system dependencies.
